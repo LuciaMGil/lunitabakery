@@ -9,6 +9,8 @@ import Admin from './pages/AdminPage';
 import Catering from './pages/CateringPage'
 import OrderNow from './pages/OrderNowPage'
 import Contact from './pages/ContactPage'
+import Cart from './pages/CartPage'
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />}>
@@ -18,6 +20,7 @@ const router = createBrowserRouter(
       <Route path='/catering' element={<Catering />} />
       <Route path='/about' element={<About />} />
       <Route path='/admin' element={<Admin />} />
+      <Route path='/cart' element={<Cart />} />
       <Route path='*' element={<NotFound />} />
     </Route>
   )

@@ -14,13 +14,15 @@ const NavBar = () => {
             <AppBar position="static">
                 <Toolbar>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        Lunita Bakery
+                       <Link to='/'>Lunita Bakery</Link> 
                     </Typography>
                     <Button color="inherit"> <Link to='/'>Home</Link></Button>
                     <Button color="inherit"> <Link to='/order-now'>Order Now</Link></Button>
                     <Button color="inherit"> <Link to='/catering'>Catering</Link></Button>
                     <Button color="inherit"> <Link to='/about'>About</Link></Button>
                     <Button color="inherit">  <Link to='/contact'>Contact</Link></Button>
+                    <Button color="inherit">  <Link to='/cart'>Cart</Link></Button>
+
                 </Toolbar>
             </AppBar>
         </Box>
